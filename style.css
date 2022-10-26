@@ -1,0 +1,31 @@
+.active-tab {
+  color: #f4c613 !important;
+  border-bottom: 2px solid #f4c613;
+  font-weight: bold; }
+
+#responsiveTabsDemo {
+  padding: 5px;
+  margin-bottom: 50px; }
+  #responsiveTabsDemo .tab-bg {
+    background: #fff;
+    margin-left: -25px;
+    min-height: 445px;
+    display: grid;
+    place-content: center;
+    padding: 1rem 2rem;
+    direction: ltr;
+    text-align: justify; }
+    #responsiveTabsDemo .tab-bg h2,
+    #responsiveTabsDemo .tab-bg h3,
+    #responsiveTabsDemo .tab-bg p,
+    #responsiveTabsDemo .tab-bg a {
+      margin: 1rem 0; }
+  #responsiveTabsDemo ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center; }
+    #responsiveTabsDemo ul li {
+      margin: 0 30px; }
+      #responsiveTabsDemo ul li a {
+        color: #1b1b1b; }
